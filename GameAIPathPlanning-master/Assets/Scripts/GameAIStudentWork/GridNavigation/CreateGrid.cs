@@ -12,7 +12,7 @@ namespace GameAICourse {
     {
 
         // Please change this string to your name
-        public const string StudentAuthorName = "Zonghao";
+        public const string StudentAuthorName = "Zonghao Hou";
 
 
         // Helper method provided to help you implement this file. Leave as is.
@@ -53,6 +53,7 @@ namespace GameAICourse {
         // Preconditions: minCellBounds <= maxCellBounds, per dimension
         static bool IsPointInsideAxisAlignedBoundingBox(Vector2Int minCellBounds, Vector2Int maxCellBounds, Vector2Int p)
         {
+            // TODO IMPLEMENT  -->  [implemented]   (original stub returned: true)
             // On/inside test is inclusive on all four edges.
             return p.x >= minCellBounds.x && p.x <= maxCellBounds.x &&
                    p.y >= minCellBounds.y && p.y <= maxCellBounds.y;
@@ -67,6 +68,7 @@ namespace GameAICourse {
         // Preconditions: min1 <= max1 AND min2 <= max2
         static bool IsRangeOverlapping(int min1, int max1, int min2, int max2)
         {
+            // TODO IMPLEMENT  -->  [implemented]   (original stub returned: true)
             // Two inclusive ranges overlap unless one ends before the other starts.
             return min1 <= max2 && min2 <= max1;
         }
@@ -76,6 +78,8 @@ namespace GameAICourse {
         // Preconditions: min1 <= max1, per dimension. min2 <= max2 per dimension
         static bool IsAxisAlignedBoundingBoxOverlapping(Vector2Int min1, Vector2Int max1, Vector2Int min2, Vector2Int max2)
         {
+            // TODO IMPLEMENT  -->  [implemented]   (original stub returned: true)
+            // HINT (from stub): Call IsRangeOverlapping()
             // Boxes overlap iff their projections onto both axes overlap.
             return IsRangeOverlapping(min1.x, max1.x, min2.x, max2.x) &&
                    IsRangeOverlapping(min1.y, max1.y, min2.y, max2.y);
@@ -94,6 +98,8 @@ namespace GameAICourse {
         //   3. an obstacle edge crosses a cell edge
         static bool IsObstacleOverlappingCell(Vector2Int sMin, Vector2Int sMax, Polygon poly)
         {
+            // [helper method — not part of the original stub; recommended by the
+            //  assignment as an optional helper for Create().]
             var pts = poly.getIntegerPoints();
 
             if (pts == null || pts.Length < 3)
@@ -153,6 +159,7 @@ namespace GameAICourse {
         // Note: public methods are autograded
         public static bool IsTraversable(bool[,] grid, int x, int y, TraverseDirection dir)
         {
+            // TODO IMPLEMENT  -->  [implemented]   (original stub returned: true)
             // Validate the grid itself
             if (grid == null || grid.Rank != 2)
                 return false;
@@ -234,6 +241,7 @@ namespace GameAICourse {
             out bool[,] grid
             )
         {
+            // TODO IMPLEMENT  -->  [implemented]   (original stub returned: grid = new bool[1,1]; grid[0,0] = true;)
             // Largest integer number of cells that fit within the canvas dimensions.
             int gridSizeX = Mathf.FloorToInt(canvasWidth / cellWidth);
             int gridSizeY = Mathf.FloorToInt(canvasHeight / cellWidth);
