@@ -1,5 +1,6 @@
 # Excluded: Roll a ball Unity project is too large (~1.9 GB)
-Assignment 0/
+# (the Assignment 0 folder itself is kept via .gitkeep)
+Assignment 0/Roll a ball/
 
 # Archive
 *.zip
