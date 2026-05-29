@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Edit(D:/Dropbox_Zonghao/Dropbox/University/OMSCS/CS7632 O01 Game AI/**)",
+      "Write(D:/Dropbox_Zonghao/Dropbox/University/OMSCS/CS7632 O01 Game AI/**)",
+      "MultiEdit(D:/Dropbox_Zonghao/Dropbox/University/OMSCS/CS7632 O01 Game AI/**)",
+      "Bash(git:*)",
+      "Bash(gh:*)"
+    ]
+  }
+}

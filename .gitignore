@@ -1,0 +1,32 @@
+# Excluded: Roll a ball Unity project is too large (~1.9 GB)
+Assignment 0/
+
+# Archive
+*.zip
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Unity / IDE
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+.vs/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
