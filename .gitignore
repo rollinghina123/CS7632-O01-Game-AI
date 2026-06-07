@@ -5,6 +5,21 @@ Assignment 0/Roll a ball/
 # Archive
 *.zip
 
+# Course lecture videos — large media (~GBs), do not commit.
+# Keep the folder itself tracked via .gitkeep.
+Course Videos/*
+!Course Videos/.gitkeep
+
+# Video files (anywhere)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.m4v
+*.wmv
+*.flv
+__MACOSX/
+
 # Unity generated folders
 [Ll]ibrary/
 [Tt]emp/

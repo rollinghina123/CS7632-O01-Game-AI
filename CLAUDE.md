@@ -63,7 +63,7 @@ Due dates are Summer 2026, **11:59 PM AoE** (≈ next morning ET). Weight is 10%
 |---|--------------------------|----------------|-----------|-----------|--------|
 | 0 | Unity Warmup (Roll a Ball) | — (not graded) | 05/22 12pm ET | — | Done |
 | 1 | Grid Lattice / Grid Navigation | `CreateGrid.cs` | **05/31** | 60 | **Validated locally (8/8 tests) — pending Gradescope submission** |
-| 2 | Path Network | `CreatePathNetwork.cs` | 06/07 | 70 | Not started |
+| 2 | Path Network | `CreatePathNetwork.cs` | 06/07 | 70 | **Implemented — hand-validated vs reference cases; pending Test Runner + Gradescope** |
 | 3 | A* Pathfinding | `AStarPathSearchImpl.cs` | 06/14 | 70 | Not started |
 | 4 | Navigation Mesh Generation | `CreateNavMesh.cs` | 06/21 | 70 | Not started |
 | 5 | Ballistic Projectiles (Projectile Aiming w/ Prison Dodgeball) | `ThrowMethods.cs`, `ShotSelection.cs` | 06/28 | 70 | Not started |
@@ -258,6 +258,6 @@ across conversations.
 
 ---
 
-*Last Updated: 2026-05-28*
-*Version: 1.1 (added Summer 2026 schedule, weights, grading from syllabus)*
+*Last Updated: 2026-06-07*
+*Version: 1.2 (Assignment 2 Path Network implemented)*
 *Primary Course: CS7632 O01 — Game AI*
