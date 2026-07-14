@@ -64,11 +64,11 @@ Due dates are Summer 2026, **11:59 PM AoE** (≈ next morning ET). Weight is 10%
 | 0 | Unity Warmup (Roll a Ball) | — (not graded) | 05/22 12pm ET | — | Done |
 | 1 | Grid Lattice / Grid Navigation | `CreateGrid.cs` | **05/31** | 60 | **Validated locally (8/8 tests) — pending Gradescope submission** |
 | 2 | Path Network | `CreatePathNetwork.cs` | 06/07 | 70 | **Implemented — hand-validated vs reference cases; pending Test Runner + Gradescope** |
-| 3 | A* Pathfinding | `AStarPathSearchImpl.cs` | 06/14 | 70 | Not started |
-| 4 | Navigation Mesh Generation | `CreateNavMesh.cs` | 06/21 | 70 | Not started |
-| 5 | Ballistic Projectiles (Projectile Aiming w/ Prison Dodgeball) | `ThrowMethods.cs`, `ShotSelection.cs` | 06/28 | 70 | Not started |
-| 6 | Prison Dodgeball (FSM / Decision Making) | `ThrowMethods.cs`, `ShotSelection.cs`, `MinionStateMachine.cs` | 07/05 | 70 | Not started |
-| 7 | Fuzzy Logic Racetrack (Race Track) | `FuzzyVehicle.cs` | 07/19 | 70 | Not started |
+| 3 | A* Pathfinding | `AStarPathSearchImpl.cs` | 06/14 | 70 | **Validated locally (Unity EditMode Test Runner 12/12) — pending Gradescope submission** |
+| 4 | Navigation Mesh Generation | `CreateNavMesh.cs` | 06/21 | 70 | **Validated locally (Unity EditMode Test Runner 6/6) — pending Gradescope submission** |
+| 5 | Ballistic Projectiles (Projectile Aiming w/ Prison Dodgeball) | `ThrowMethods.cs`, `ShotSelection.cs` | 06/28 | 70 | **Implemented (Millington static + iterative refinement; shot-selection deferral) — pending Unity Test Runner + Gradescope** |
+| 6 | Prison Dodgeball (FSM / Decision Making) | `ThrowMethods.cs`, `ShotSelection.cs`, `MinionStateMachine.cs` | 07/05 | 70 | **Validated vs Glass Joe across 1v1–5v5 / 1–4 balls: all ≥0.80 win ratio, 0 losses — pending Gradescope** |
+| 7 | Fuzzy Logic Racetrack (Race Track) | `FuzzyVehicle.cs` | 07/19 | 70 | **Validated locally (PlayMode CLI: all 4 tracks, 0 wipeouts, ≈101.9/100 est.) — pending Gradescope submission** |
 | 8 | PCG | multiple (see PDF) | 07/26 | 70 | Not started |
 
 **Module Quizzes** (12 total) all due **07/26 11:59 PM AoE**: Intro to Game AI, Basic Agent Movement,
@@ -258,6 +258,6 @@ across conversations.
 
 ---
 
-*Last Updated: 2026-06-07*
-*Version: 1.2 (Assignment 2 Path Network implemented)*
+*Last Updated: 2026-07-14*
+*Version: 1.8 (Assignment 7 Fuzzy Racetrack validated on all 4 tracks with 0 wipeouts via PlayMode CLI)*
 *Primary Course: CS7632 O01 — Game AI*
