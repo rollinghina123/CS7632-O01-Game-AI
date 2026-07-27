@@ -69,7 +69,7 @@ Due dates are Summer 2026, **11:59 PM AoE** (≈ next morning ET). Weight is 10%
 | 5 | Ballistic Projectiles (Projectile Aiming w/ Prison Dodgeball) | `ThrowMethods.cs`, `ShotSelection.cs` | 06/28 | 70 | **Implemented (Millington static + iterative refinement; shot-selection deferral) — pending Unity Test Runner + Gradescope** |
 | 6 | Prison Dodgeball (FSM / Decision Making) | `ThrowMethods.cs`, `ShotSelection.cs`, `MinionStateMachine.cs` | 07/05 | 70 | **Validated vs Glass Joe across 1v1–5v5 / 1–4 balls: all ≥0.80 win ratio, 0 losses — pending Gradescope** |
 | 7 | Fuzzy Logic Racetrack (Race Track) | `FuzzyVehicle.cs` | 07/19 | 70 | **Validated locally (PlayMode CLI: all 4 tracks, 0 wipeouts, ≈101.9/100 est.) — pending Gradescope submission** |
-| 8 | PCG | multiple (see PDF) | 07/26 | 70 | Not started |
+| 8 | PCG | `PCGTerrainData.asset`, `readme.txt`, screenshots | 07/26 | 70 | **Validated in Unity (17-node graph loaded, 3 biomes confirmed, asset↔scene↔readme consistency checked, screenshots captured) — pending Gradescope submission** |
 
 **Module Quizzes** (12 total) all due **07/26 11:59 PM AoE**: Intro to Game AI, Basic Agent Movement,
 Computational Geometry Intro, Path Planning #1, Path Planning #2, Steering Behavior, Ballistic
@@ -258,6 +258,6 @@ across conversations.
 
 ---
 
-*Last Updated: 2026-07-14*
-*Version: 1.8 (Assignment 7 Fuzzy Racetrack validated on all 4 tracks with 0 wipeouts via PlayMode CLI)*
+*Last Updated: 2026-07-26*
+*Version: 1.9 (Assignment 8 PCG terrain graph authored — 17 nodes, 3 trapezoid-split biomes; pending Unity validation)*
 *Primary Course: CS7632 O01 — Game AI*
